@@ -1,0 +1,102 @@
+# The Car Detailing — www.thecardetailing.in
+# Robots.txt | Updated: 2026-05-17
+# ──────────────────────────────────────────
+
+# ── All crawlers ──────────────────────────
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# ── Google ────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /gallery/
+Allow: /favicon_io/
+
+# Google AI (Bard / Gemini training)
+User-agent: Google-Extended
+Allow: /
+
+# ── OpenAI / ChatGPT ──────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ── Anthropic / Claude ────────────────────
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# ── Perplexity AI ─────────────────────────
+User-agent: PerplexityBot
+Allow: /
+
+# ── Apple Intelligence ────────────────────
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Meta AI ───────────────────────────────
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# ── Amazon / Alexa ────────────────────────
+User-agent: Amazonbot
+Allow: /
+
+# ── Cohere ────────────────────────────────
+User-agent: cohere-ai
+Allow: /
+
+# ── ByteDance ─────────────────────────────
+User-agent: Bytespider
+Allow: /
+
+# ── Common Crawl (AI training datasets) ──
+User-agent: CCBot
+Allow: /
+
+# ── DuckDuckGo AI ─────────────────────────
+User-agent: DuckAssistBot
+Allow: /
+
+# ── Bing / Microsoft Copilot ──────────────
+User-agent: Bingbot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+# ── Internet Archive ──────────────────────
+User-agent: ia_archiver
+Allow: /
+
+# ── SEO Tools ─────────────────────────────
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: MJ12bot
+Allow: /
+
+# ── Sitemaps ──────────────────────────────
+Sitemap: https://www.thecardetailing.in/sitemap.xml
